@@ -9,7 +9,7 @@
 |Webフレームワーク|Spring|業務で2年以上経験あり|
 |ビルドツール|Gradle|業務で1年以上経験あり|
 |Webアプリケーション開発|GraphQL<br>ネットワーク<br>|業務で半年以上経験あり<br>httpやSSLへの理解|
-|モバイル開発|Flutter<br>Firebase<br><br>アプリリリース<br><br>|業務で半年以上経験あり<br>業務で半年以上経験あり<br>- セキュリティルールの記述ができる<br>iOS/Androidリリース経験あり<br>- Flavorによる環境構築ができる
+|モバイル開発|Flutter<br>Firebase<br><br>アプリリリース<br><br>|業務で半年以上経験あり<br>業務で半年以上経験あり<br>- セキュリティルールの記述<br>iOS/Androidリリース経験<br>- Flavorによる環境構築
 |ソフトウェアアーキテクチャ設計|DDD, クリーンアーキテクチャ, オニオンアーキテクチャ,etc...|業務で半年以上経験あり<br>- 違いや利点を述べることができる|
 |クラウド技術|Kubernates<br><br>Kustomize<br><br>|業務で1年以上使用<br>- CRDへの理解<br>業務で1年以上使用<br>- 環境差分構築可能|
 |監視|Prometheus<br>Grafana|業務で1年以上使用<br>業務で1年以上使用<br>|
