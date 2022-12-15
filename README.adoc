@@ -1,5 +1,0 @@
-= Resume(職務経歴書)
-
-include::skill.adoc[leveloffset=+1]
-
-include::history.adoc[leveloffset=+1]
