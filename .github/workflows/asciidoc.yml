@@ -21,9 +21,9 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: Output-document
-        path: ./README.html
+        path: ./docs/index.html
     - name: publish
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./
+        publish_dir: ./docs
