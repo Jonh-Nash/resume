@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+    
+jobs:
+  asciidoctor_job:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+    - name: Build AsciiDoc step
+      id: documents
+      uses: Analog-inc/asciidoctor-action@master
+      with:
+        shellcommand: "asciidoctor README.adoc" 
+    - name: Save AsciiDoc step
+      uses: actions/upload-artifact@v1
+      with:
+        name: Output-document
+        path: ./README.html
+    - name: publish
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./app/build/docs/asciidoc
