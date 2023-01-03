@@ -49,4 +49,13 @@ a|
 * formタグの中身は、HTTPのbodyで送られて、サーバはそれを解釈する。
 |link:https://twitter.com/Kotaropreengin1/status/1609940280169607168[リンク]
 
+|1/3
+|CGI
+a|
+* Webサーバにリクエストがあったときに、WebサーバはCGIプログラムを起動する。
+* CGIプログラムはprintなどの標準出力でHTMLを出力する。この時にリクエスト内の情報などを使って動的にHTMLを生成できる。なぜならコードだから。
+* WebサーバとCGIプログラムの関係(どのエンドポイントだとどのプログラムを起動するかなど)は、.htaccessなどであらかじめ設定しておく。
+* リクエスト内の情報は、Webサーバの標準入力や環境変数から受け取る。
+|link:https://twitter.com/Kotaropreengin1/status/1610275755904348160[リンク]
+
 |===
