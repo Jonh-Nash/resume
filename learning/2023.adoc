@@ -36,4 +36,11 @@ a|
 * Javaで匿名クラスは、例えばHogeクラスに匿名クラスがある場合、Hoge$1.classのように生成される。
 |link:https://twitter.com/Kotaropreengin1/status/1609788140260331522[リンク]
 
+|1/3
+|HTMLのformとHTTP
+a|
+* HTMLのformタグってPOSTしてるだけ。
+* formタグの中身は、HTTPのbodyで送られて、サーバはそれを解釈する。
+|link:https://twitter.com/Kotaropreengin1/status/1609940280169607168[リンク]
+
 |===
