@@ -1,3 +1,0 @@
-= learning(学習記録)
-
-include::2023.adoc[leveloffset=+1]
